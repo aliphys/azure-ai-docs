@@ -99,7 +99,10 @@ In the Azure AI Studio, check for an Azure AI Search connected resource.
 
 This section shows how to configure the various access controls needed for the resources you created in the previous sections.
 
-We recommend using [Microsoft Entra ID](/entra/fundamentals/whatis) instead of using API keys. In order to use this authentication, you need to set the right access controls and assign the right roles for your services. 
+We recommend using [Microsoft Entra ID](/entra/fundamentals/whatis) instead of using API keys. In order to use this authentication, you need to set the right access controls and assign the right roles for your services.
+
+> [!NOTE]
+> This tutorial is compatible with any access control option you choose.
 
 ### Configure access for Azure AI Services
 
