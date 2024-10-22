@@ -152,6 +152,9 @@ You're now ready to hand off the project to a developer to build the chat applic
 
 To avoid incurring unnecessary Azure costs, you should delete the resources you created in this tutorial if they're no longer needed. To manage resources, you can use the [Azure portal](https://portal.azure.com?azure-portal=true).
 
+> [!NOTE]
+> If you have created the resources in this tutorial through a single resource group (e.e. *rg-contoso*), you should be able to delete the resources created in this tutorial by deleting that resource.
+
 But don't delete them yet, if you want to build a chat app in [the next part of this tutorial series](copilot-sdk-build-rag.md).
 
 ## Next step
