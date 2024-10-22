@@ -57,6 +57,8 @@ To create a project in [Azure AI Studio](https://ai.azure.com), follow these ste
 1. Enter a name for the project (e.g. *contoso-proj*).
 1. Select the hub you created in the previous step.
 
+    :::image type="content" source="../media/tutorials/develop-rag-copilot-sdk/project-new.png" alt-text="Screenshot shows new project creation.":::
+
 Once your project is created within the hub, you can access the playground, tools, and other assets in the left navigation panel.
 
 ## Create an Azure AI Search index
