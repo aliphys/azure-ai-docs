@@ -48,6 +48,8 @@ In this tutorial, you use Azure resources to build the chat app. You'll use both
 
 ## Create a project
 
+Creating a project in Azure AI Studio helps you organize and manage your workflows and experiments in a structured way. Each project is tied to a specific hub, so that resources are grouped logically for efficient collaboration and development.
+
 To create a project in [Azure AI Studio](https://ai.azure.com), follow these steps:
 
 1. Go to the **Home** page of [Azure AI Studio](https://ai.azure.com). If the **Home** button is not visible on the left pane, select **Azure AI Studio** in the top left corner. 
@@ -55,7 +57,7 @@ To create a project in [Azure AI Studio](https://ai.azure.com), follow these ste
 1. Enter a name for the project (e.g. *contoso-proj*).
 1. Select the hub you created in the previous step.
 
-Once a project is created, you can access the playground, tools, and other assets in the left navigation panel.
+Once your project is created within the hub, you can access the playground, tools, and other assets in the left navigation panel.
 
 ## Create an Azure AI Search index
 
