@@ -63,9 +63,9 @@ Once your project is created within the hub, you can access the playground, tool
 
 ## Create an Azure AI Search index
 
-The goal with this application is to ground the model responses in your custom data. The search index is used to retrieve relevant documents based on the user's question.
+The Azure AI Search index allows the chat app to search through your custom documents and find the most relevant information based on the query query. Without this index, the model wouldn't be able to leverage your specific data, reducing the effectiveness of your application.
 
-You need an Azure AI Search service and connection in order to create a search index.
+To leverage this functionality, you need to both have an Azure AI Search service  (Microsoft.Search) enabled and also connected to the project.
 
 > [!NOTE]
 > Creating an [Azure AI Search service](/azure/search/) and subsequent search indexes has associated costs. You can see details about pricing and pricing tiers for the Azure AI Search service on the creation page, to confirm cost before creating the resource.
