@@ -159,5 +159,7 @@ But don't delete them yet, if you want to build a chat app in [the next part of 
 
 ## Next step
 
+In part one of the chat app tutorial, you set up the required resources including the Azure AI Hub and Azure AI Search service. In the next section, you will use the resources that you created to create the chat app with data retrieval. 
+
 > [!div class="nextstepaction"]
 > [Part 2: Build a custom chat app with the prompt flow SDK](copilot-sdk-build-rag.md)
