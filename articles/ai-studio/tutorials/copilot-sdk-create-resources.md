@@ -1,7 +1,7 @@
 ---
 title: "Part 1: Create resources to build a custom chat app"
 titleSuffix: Azure AI Studio
-description:  Build a custom chat app using the prompt flow SDK. Part 1 of a 3-part tutorial series, which shows how to create the resources you'll need for parts 2 and 3.
+description: Build a custom chat app using the prompt flow SDK. Part 1 of a 3-part tutorial series, which shows how to create the resources you'll need for parts 2 and 3.
 manager: scottpolly
 ms.service: azure-ai-studio
 ms.topic: tutorial
@@ -12,11 +12,11 @@ author: sdgilley
 #customer intent: As a developer, I want to learn how to use the prompt flow SDK so that I can build a RAG-based chat app.
 ---
 
-# Tutorial:  Part 1 - Create resources for building a custom chat application with the prompt flow SDK
+# Tutorial: Part 1 - Create resources for building a custom chat application with the prompt flow SDK
 
 In this tutorial, you use the prompt flow SDK (and other libraries) to build, configure, evaluate, and deploy a chat app for your retail company called Contoso Trek. Your retail company specializes in outdoor camping gear and clothing. The chat app should answer questions about your products and services. For example, the chat app can answer questions such as "which tent is the most waterproof?" or "what is the best sleeping bag for cold weather?".
 
-This tutorial is part one of a three-part tutorial.  This part one shows how an administrator of an Azure subscription creates and configures the resources needed for parts two and three of the tutorial series. Parts two and three show how a developer uses the resources. In many organizations, the same person might take on both of these roles. In this part one, you learn how to:
+This tutorial is part one of a three-part tutorial. This part one shows how an administrator of an Azure subscription creates and configures the resources needed for parts two and three of the tutorial series. Parts two and three show how a developer uses the resources. In many organizations, the same person might take on both of these roles. In this part one, you learn how to:
 
 > [!div class="checklist"]
 > - Create an Azure AI Studio hub
@@ -33,11 +33,11 @@ This tutorial is part one of a three-part tutorial.
 * An Azure account with an active subscription. If you don't have one, [create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 > [!IMPORTANT]
-> You must have the necessary permissions to add role assignments in your Azure subscription. Granting permissions by role assignment is only allowed by the **Owner** of the specific Azure resources. You might need to ask your Azure subscription owner (who might be your IT admin) to complete this tutorial for you.  
+> You must have the necessary permissions to add role assignments in your Azure subscription. Granting permissions by role assignment is only allowed by the **Owner** of the specific Azure resources. You might need to ask your Azure subscription owner (who might be your IT admin) to complete this tutorial for you. 
 
 ## Azure AI Studio and Azure portal
 
-In this tutorial, you use Azure resources to build the chat app.  You'll use both Azure AI Studio and Azure portal to create and configure these resources.
+In this tutorial, you use Azure resources to build the chat app. You'll use both Azure AI Studio and Azure portal to create and configure these resources.
 
 - As an administrator, you use Azure portal to configure access to resources.
 - As a developer, you use Azure AI Studio to group together those resources needed to build, evaluate, and deploy the chat app. You can also interact with your models and deployments in AI Studio.
@@ -103,7 +103,7 @@ Start in the project to find the AI Services resource:
 
 1. In [AI Studio](https://ai.azure.com), go to your project and select **Settings** from the left pane.
 1. Select **Connected resources**.
-1. Select the **AI Services** or **Azure OpenAI** name in the connected resources list to open the resource details page.  Then select the resource name again in the **Connection Details** page, which opens the resource in the Azure portal.
+1. Select the **AI Services** or **Azure OpenAI** name in the connected resources list to open the resource details page. Then select the resource name again in the **Connection Details** page, which opens the resource in the Azure portal.
 
 Specify the access control in the Azure portal:
 
@@ -115,7 +115,7 @@ Specify the access control in the Azure portal:
 
 ### Configure access for Azure AI Search
 
-Now go back to [AI Studio](https://ai.azure.com) **Settings** > **Connected Resources**.  This time select the **Azure AI Search** name in the connected resources list to open the resource details page.  Then select the resource name again in the **Connection Details** page, which opens the resource in the Azure portal.
+Now go back to [AI Studio](https://ai.azure.com) **Settings** > **Connected Resources**. This time select the **Azure AI Search** name in the connected resources list to open the resource details page. Then select the resource name again in the **Connection Details** page, which opens the resource in the Azure portal.
 
 To enable role-based access control for your Azure AI Search service, follow these steps:
 
@@ -139,7 +139,7 @@ Still in the Azure portal for the Azure AI Search service, assign the **Search I
 
 Repeat these steps to also add the **Search Service Contributor** role to the Azure AI Search service.
 
-You're now ready to hand off the project to a developer to build the chat application.  The developer will use the prompt flow SDK to build, configure, evaluate, and deploy the chat app for your retail company called Contoso Trek.
+You're now ready to hand off the project to a developer to build the chat application. The developer will use the prompt flow SDK to build, configure, evaluate, and deploy the chat app for your retail company called Contoso Trek.
 
 ## Clean up resources
 
