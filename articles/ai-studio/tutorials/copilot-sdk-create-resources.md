@@ -50,7 +50,7 @@ In this tutorial, you use Azure resources to build the chat app.  You'll use bot
 
 To create a project in [Azure AI Studio](https://ai.azure.com), follow these steps:
 
-1. Go to the **Home** page of [Azure AI Studio](https://ai.azure.com). 
+1. Go to the **Home** page of [Azure AI Studio](https://ai.azure.com). If the **Home** button is not visible on the left pane, select **Azure AI Studio** in the top left corner. 
 1. Select **+ New project**.
 1. Enter a name for the project.
 1. Select the hub you created in the previous step.
