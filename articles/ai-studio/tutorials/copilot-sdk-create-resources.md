@@ -109,8 +109,8 @@ We recommend using [Microsoft Entra ID](/entra/fundamentals/whatis) instead of u
 Start in the project to find the AI Services resource:
 
 1. In [AI Studio](https://ai.azure.com), go to your project and select **Settings** from the left pane.
-1. Select **Connected resources**.
-1. Select the **AI Services** or **Azure OpenAI** name in the connected resources list to open the resource details page. Then select the resource name again in the **Connection Details** page, which opens the resource in the Azure portal.
+1. In the **Connected resources** section select **View all**.
+1. Select the resource with type **Name** with type **AI Services** or **Azure OpenAI** name in the list to open the resource details page. Then select the resource name again in the **Connection Details** section, which opens the resource in the Azure portal.
 
 Specify the access control in the Azure portal:
 
@@ -126,7 +126,7 @@ Now go back to [AI Studio](https://ai.azure.com) **Settings** > **Connected Reso
 
 To enable role-based access control for your Azure AI Search service, follow these steps:
 
-1. On your Azure AI Search service in the [Azure portal](https://portal.azure.com), select **Settings > Keys** from the left pane.
+1. On your Azure AI Search service (Microsoft.Search) in the [Azure portal](https://portal.azure.com), select **Settings > Keys** from the left pane.
 1. Select **Both** to ensure that API keys and role-based access control are both enabled for your Azure AI Search service. 
 
     :::image type="content" source="../media/tutorials/develop-rag-copilot-sdk/search-access-control.png" alt-text="Screenshot shows API Access control setting.":::
